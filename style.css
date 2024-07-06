@@ -1,0 +1,55 @@
+body {
+    background-color:#d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    background-color: rgba(255, 0, 0, 0.734);
+    padding: 20px;
+    border: 2px solid #d3d3d3;
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+}
+
+input#task-input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #d3d3d38f; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding:10px 20px 10px 20px;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+.check-icon,
+.trash-icon {
+    cursor: pointer; 
+     margin: 5px 0 0 5px; 
+}
+
+.done {
+    background-color: green;
+    text-decoration: line-through; 
+}
